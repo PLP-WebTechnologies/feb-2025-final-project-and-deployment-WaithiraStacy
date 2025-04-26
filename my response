@@ -1,0 +1,298 @@
+index.html
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyBlog</div>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="menu-toggle">Menu</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to My Blog!</h1>
+      <p>Sharing ideas, stories, and inspiration.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MyBlog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+about.html
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyBlog</div>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="menu-toggle">Menu</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>About Me</h1>
+      <p>Hi, I'm a passionate writer who loves sharing thoughts with the world!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MyBlog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+posts.html
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts - My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyBlog</div>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="menu-toggle">Menu</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Blog Posts</h1>
+      <article>
+        <h2>First Post</h2>
+        <p>This is my first blog post. Excited to start this journey!</p>
+      </article>
+      <article>
+        <h2>Another Post</h2>
+        <p>Some more thoughts and ideas to share with you!</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MyBlog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+contact.html
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyBlog</div>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="menu-toggle">Menu</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Contact Me</h1>
+      <form>
+        <label>Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Message</label>
+        <textarea required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MyBlog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+styles.css
+
+css
+Copy
+Edit
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+#nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu-toggle {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.hero {
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+  }
+
+  #nav-links.show {
+    display: flex;
+  }
+
+  #menu-toggle {
+    display: block;
+  }
+}
+script.js
+
+javascript
+Copy
+Edit
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
